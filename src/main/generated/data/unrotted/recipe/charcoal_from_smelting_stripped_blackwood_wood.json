@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "blackwood",
+  "ingredient": {
+    "item": "unrotted:stripped_blackwood_wood"
+  },
+  "result": {
+    "id": "minecraft:charcoal"
+  }
+}

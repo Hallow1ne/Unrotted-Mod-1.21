@@ -2,8 +2,10 @@ package net.hallow.unrotted.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hallow.unrotted.Unrotted;
+import net.hallow.unrotted.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -29,6 +31,29 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable()
             )
     );
+    public static final Block BLACKWOOD_PLANKS = registerBlock(
+            "blackwood_planks",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.BLACK)
+                            .instrument(NoteBlockInstrument.BASS)
+                            .strength(2.0F, 3.0F)
+                            .sounds(BlockSoundGroup.WOOD)
+                            .burnable()
+            )
+    );
+
+    public static final Block BLACKWOOD_LEAVES = registerBlock(
+            "blackwood_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES))
+    );
+
+    public static final Block BLACKWOOD_SAPLING = registerBlock(
+            "blackwood_sapling",
+            new SaplingBlock(ModSaplingGenerators.BLACKWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING))
+    );
+
+
 
     public static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);
@@ -50,6 +75,7 @@ public class ModBlocks {
                         .burnable()
         );
     }
+
     public static void initialize() {
         Unrotted.LOGGER.info("Registering Mod Blocks for " + Unrotted.MOD_ID);
 
@@ -58,6 +84,9 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.BLACKWOOD_WOOD);
             fabricItemGroupEntries.add(ModBlocks.STRIPPED_BLACKWOOD_LOG);
             fabricItemGroupEntries.add(ModBlocks.STRIPPED_BLACKWOOD_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.BLACKWOOD_PLANKS);
+            fabricItemGroupEntries.add(ModBlocks.BLACKWOOD_LEAVES);
+            fabricItemGroupEntries.add(ModBlocks.BLACKWOOD_SAPLING);
         });
     }
 }
