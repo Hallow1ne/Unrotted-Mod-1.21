@@ -23,10 +23,10 @@ public class ModConfiguredFeatures {
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, BLACKWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.BLACKWOOD_LOG),
-                new StraightTrunkPlacer(5, 6, 3),
+                new StraightTrunkPlacer(3, 2, 0),
 
                 BlockStateProvider.of(ModBlocks.BLACKWOOD_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), 3),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
 
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }
