@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "unrotted:block/stripped_blackwood_log_top",
+    "side": "unrotted:block/stripped_blackwood_log"
+  }
+}

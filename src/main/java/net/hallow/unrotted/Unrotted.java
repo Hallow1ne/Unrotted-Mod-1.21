@@ -2,6 +2,7 @@ package net.hallow.unrotted;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.hallow.unrotted.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class Unrotted implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModBlocks.initialize();
 	}
 }

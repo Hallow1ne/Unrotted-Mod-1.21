@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "unrotted:block/blackwood_log",
+    "side": "unrotted:block/blackwood_log"
+  }
+}
