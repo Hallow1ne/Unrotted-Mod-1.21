@@ -4,6 +4,11 @@
     "unrotted:blackwood_wood",
     "unrotted:stripped_blackwood_log",
     "unrotted:stripped_blackwood_wood",
-    "unrotted:blackwood_planks"
+    "unrotted:blackwood_planks",
+    "unrotted:rotwood_log",
+    "unrotted:rotwood_wood",
+    "unrotted:stripped_rotwood_log",
+    "unrotted:stripped_rotwood_wood",
+    "unrotted:rotwood_planks"
   ]
 }

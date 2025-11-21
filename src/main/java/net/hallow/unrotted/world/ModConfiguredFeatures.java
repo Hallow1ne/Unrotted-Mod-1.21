@@ -19,6 +19,7 @@ import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> BLACKWOOD_KEY = registerKey("blackwood");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROTWOOD_KEY = registerKey("rotwood");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, BLACKWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
@@ -29,7 +30,16 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
 
                 new TwoLayersFeatureSize(1, 0, 2)).build());
+        register(context, ROTWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.ROTWOOD_LOG),
+                new StraightTrunkPlacer(3, 2, 0),
+
+                BlockStateProvider.of(ModBlocks.BLACKWOOD_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(0), ConstantIntProvider.create(0), 0),
+
+                new TwoLayersFeatureSize(1, 0, 2)).build());
     }
+
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(Unrotted.MOD_ID, name));

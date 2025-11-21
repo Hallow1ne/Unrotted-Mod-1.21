@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "unrotted:stripped_rotwood_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "unrotted:rotwood_planks"
+  }
+}

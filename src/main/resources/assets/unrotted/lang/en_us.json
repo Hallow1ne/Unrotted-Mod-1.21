@@ -4,6 +4,12 @@
   "block.unrotted.stripped_blackwood_log": "Stripped Blackwood Log",
   "block.unrotted.stripped_blackwood_wood": "Stripped Blackwood",
   "block.unrotted.blackwood_planks": "Blackwood Planks",
+  "block.unrotted.blackwood_sapling": "Blackwood Sapling",
   "block.unrotted.blackwood_leaves": "Blackwood Leaves",
-  "block.unrotted.blackwood_sapling": "Blackwood Sapling"
+  "block.unrotted.rotwood_log": "Rotwood Log",
+  "block.unrotted.rotwood_wood": "Rotwood",
+  "block.unrotted.stripped_rotwood_log": "Stripped Rotwood Log",
+  "block.unrotted.stripped_rotwood_wood": "Stripped Rotwood",
+  "block.unrotted.rotwood_planks": "Rotwood Planks",
+  "block.unrotted.rotwood_sapling": "Rotwood Sapling"
 }

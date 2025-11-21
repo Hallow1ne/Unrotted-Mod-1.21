@@ -22,12 +22,18 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.BLACKWOOD_LOG.asItem())
                 .add(ModBlocks.BLACKWOOD_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_BLACKWOOD_LOG.asItem())
-                .add(ModBlocks.STRIPPED_BLACKWOOD_WOOD.asItem());
+                .add(ModBlocks.STRIPPED_BLACKWOOD_WOOD.asItem())
+                .add(ModBlocks.ROTWOOD_LOG.asItem())
+                .add(ModBlocks.ROTWOOD_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_ROTWOOD_LOG.asItem())
+                .add(ModBlocks.STRIPPED_ROTWOOD_WOOD.asItem());
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
-                .add(ModBlocks.BLACKWOOD_PLANKS.asItem());
+                .add(ModBlocks.BLACKWOOD_PLANKS.asItem())
+                .add(ModBlocks.ROTWOOD_PLANKS.asItem());
 
         getOrCreateTagBuilder(ItemTags.SAPLINGS)
-                .add(ModBlocks.BLACKWOOD_SAPLING.asItem());
+                .add(ModBlocks.BLACKWOOD_SAPLING.asItem())
+                .add(ModBlocks.ROTWOOD_SAPLING.asItem());
     }
 }

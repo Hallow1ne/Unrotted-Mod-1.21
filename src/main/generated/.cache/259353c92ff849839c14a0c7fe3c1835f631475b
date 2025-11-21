@@ -1,8 +1,14 @@
-// 1.21	2025-11-20T21:49:05.6481236	Unrotted/Block Loot Tables
+// 1.21	2025-11-21T19:58:39.0424893	Unrotted/Block Loot Tables
+cc1a83754248edf867c32623f547476fe5e7a925 data\unrotted\loot_table\blocks\rotwood_planks.json
+4c003f7e44831e53a3e33fc01c2509e2795242c7 data\unrotted\loot_table\blocks\rotwood_log.json
+6ab30ad86deff7e397cf56b297d40a9c112a4192 data\unrotted\loot_table\blocks\stripped_rotwood_wood.json
+b213750065f56af38e8c39dd639e7c0ad5b8dd9e data\unrotted\loot_table\blocks\stripped_rotwood_log.json
+d9d50157b80580c137cc87f5941a0df50ba83a6f data\unrotted\loot_table\blocks\stripped_blackwood_wood.json
+c680c1a32682e545dc7e37b94d1cff810b79b295 data\unrotted\loot_table\blocks\blackwood_wood.json
 084ec909f05c354d127462e5575941e97ae41234 data\unrotted\loot_table\blocks\blackwood_leaves.json
 520b977beb4773b7d38088cfb5af8672fa8a9dba data\unrotted\loot_table\blocks\stripped_blackwood_log.json
+11b5116f34ed2fcfb5d2571c9f3e71c8c15659ba data\unrotted\loot_table\blocks\rotwood_wood.json
 2c2b30ca44a1f5f81bc1725a3998a640fe932382 data\unrotted\loot_table\blocks\blackwood_sapling.json
 253986cbbfa294eff5b00f3a6f83b202b53c271e data\unrotted\loot_table\blocks\blackwood_log.json
 25030fa147af910169962c6e9cd175bb52ffbc3c data\unrotted\loot_table\blocks\blackwood_planks.json
-d9d50157b80580c137cc87f5941a0df50ba83a6f data\unrotted\loot_table\blocks\stripped_blackwood_wood.json
-c680c1a32682e545dc7e37b94d1cff810b79b295 data\unrotted\loot_table\blocks\blackwood_wood.json
+5bb359bcb7b411bbfffbeac8becc152359b29f6c data\unrotted\loot_table\blocks\rotwood_sapling.json

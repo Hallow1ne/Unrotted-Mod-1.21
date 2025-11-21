@@ -9,5 +9,6 @@ public class UnrottedClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACKWOOD_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ROTWOOD_SAPLING, RenderLayer.getCutout());
     }
 }

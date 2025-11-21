@@ -16,6 +16,7 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -27,6 +28,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
         List<ItemConvertible> BLACKWOOD_LIST = List.of(ModBlocks.BLACKWOOD_LOG, ModBlocks.BLACKWOOD_WOOD,
                 ModBlocks.STRIPPED_BLACKWOOD_LOG, ModBlocks.STRIPPED_BLACKWOOD_WOOD);
+        List<ItemConvertible> ROTWOOD_LIST = List.of(ModBlocks.ROTWOOD_LOG, ModBlocks.ROTWOOD_WOOD,
+                ModBlocks.STRIPPED_ROTWOOD_LOG, ModBlocks.STRIPPED_ROTWOOD_WOOD);
 
         offerSmelting(exporter, BLACKWOOD_LIST, RecipeCategory.MISC, Items.CHARCOAL, 0, 200, "blackwood");
 
@@ -34,9 +37,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         makePlanks(exporter, ModBlocks.BLACKWOOD_WOOD, ModBlocks.BLACKWOOD_PLANKS, 4, "blackwood_wood_to_planks");
         makePlanks(exporter, ModBlocks.STRIPPED_BLACKWOOD_LOG, ModBlocks.BLACKWOOD_PLANKS, 4, "stripped_blackwood_log_to_planks");
         makePlanks(exporter, ModBlocks.STRIPPED_BLACKWOOD_WOOD, ModBlocks.BLACKWOOD_PLANKS, 4, "stripped_blackwood_wood_to_planks");
+        makePlanks(exporter, ModBlocks.ROTWOOD_LOG, ModBlocks.ROTWOOD_PLANKS, 4, "rotwood_log_to_planks");
+        makePlanks(exporter, ModBlocks.ROTWOOD_WOOD, ModBlocks.ROTWOOD_PLANKS, 4, "rotwood_wood_to_planks");
+        makePlanks(exporter, ModBlocks.STRIPPED_ROTWOOD_LOG, ModBlocks.ROTWOOD_PLANKS, 4, "stripped_rotwood_log_to_planks");
+        makePlanks(exporter, ModBlocks.STRIPPED_ROTWOOD_WOOD, ModBlocks.ROTWOOD_PLANKS, 4, "stripped_rotwood_wood_to_planks");
 
         offerBarkBlockRecipe(exporter, ModBlocks.BLACKWOOD_WOOD, ModBlocks.BLACKWOOD_LOG);
         offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_BLACKWOOD_LOG, ModBlocks.STRIPPED_BLACKWOOD_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.ROTWOOD_WOOD, ModBlocks.ROTWOOD_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_ROTWOOD_LOG, ModBlocks.STRIPPED_ROTWOOD_LOG);
     }
 
     public void makePlanks(RecipeExporter exporter, Block input, Block output, int count, String name) {

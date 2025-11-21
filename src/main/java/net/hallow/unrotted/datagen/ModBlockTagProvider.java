@@ -20,12 +20,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACKWOOD_WOOD)
                 .add(ModBlocks.STRIPPED_BLACKWOOD_LOG)
                 .add(ModBlocks.STRIPPED_BLACKWOOD_WOOD)
-                .add(ModBlocks.BLACKWOOD_PLANKS);
+                .add(ModBlocks.BLACKWOOD_PLANKS)
+                .add(ModBlocks.ROTWOOD_LOG)
+                .add(ModBlocks.ROTWOOD_WOOD)
+                .add(ModBlocks.STRIPPED_ROTWOOD_LOG)
+                .add(ModBlocks.STRIPPED_ROTWOOD_WOOD)
+                .add(ModBlocks.ROTWOOD_PLANKS);
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.BLACKWOOD_LOG)
                 .add(ModBlocks.BLACKWOOD_WOOD)
                 .add(ModBlocks.STRIPPED_BLACKWOOD_LOG)
-                .add(ModBlocks.STRIPPED_BLACKWOOD_WOOD);
+                .add(ModBlocks.STRIPPED_BLACKWOOD_WOOD)
+                .add(ModBlocks.ROTWOOD_LOG)
+                .add(ModBlocks.ROTWOOD_WOOD)
+                .add(ModBlocks.STRIPPED_ROTWOOD_LOG)
+                .add(ModBlocks.STRIPPED_ROTWOOD_WOOD);
     }
 }

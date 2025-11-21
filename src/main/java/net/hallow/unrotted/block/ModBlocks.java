@@ -18,24 +18,53 @@ import net.minecraft.util.math.Direction;
 
 public class ModBlocks {
     public static final Block BLACKWOOD_LOG = registerBlock("blackwood_log", createLogBlock(MapColor.BLACK, MapColor.WHITE_GRAY));
+    public static final Block ROTWOOD_LOG = registerBlock("rotwood_log", createLogBlock(MapColor.BROWN, MapColor.BROWN));
+
     public static final Block STRIPPED_BLACKWOOD_LOG = registerBlock("stripped_blackwood_log", createLogBlock(MapColor.BLACK, MapColor.BLACK));
+    public static final Block STRIPPED_ROTWOOD_LOG = registerBlock("stripped_rotwood_log", createLogBlock(MapColor.BROWN, MapColor.BROWN));
+
     public static final Block BLACKWOOD_WOOD = registerBlock(
             "blackwood_wood",
             new PillarBlock(
                     AbstractBlock.Settings.create().mapColor(MapColor.WHITE_GRAY).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable()
             )
     );
+    public static final Block ROTWOOD_WOOD = registerBlock(
+            "rotwood_wood",
+            new PillarBlock(
+                    AbstractBlock.Settings.create().mapColor(MapColor.BROWN).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable()
+            )
+    );
+
     public static final Block STRIPPED_BLACKWOOD_WOOD = registerBlock(
             "stripped_blackwood_wood",
             new PillarBlock(
                     AbstractBlock.Settings.create().mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable()
             )
     );
+    public static final Block STRIPPED_ROTWOOD_WOOD = registerBlock(
+            "stripped_rotwood_wood",
+            new PillarBlock(
+                    AbstractBlock.Settings.create().mapColor(MapColor.BROWN).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable()
+            )
+    );
+
     public static final Block BLACKWOOD_PLANKS = registerBlock(
             "blackwood_planks",
             new Block(
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.BLACK)
+                            .instrument(NoteBlockInstrument.BASS)
+                            .strength(2.0F, 3.0F)
+                            .sounds(BlockSoundGroup.WOOD)
+                            .burnable()
+            )
+    );
+    public static final Block ROTWOOD_PLANKS = registerBlock(
+            "rotwood_planks",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.BROWN)
                             .instrument(NoteBlockInstrument.BASS)
                             .strength(2.0F, 3.0F)
                             .sounds(BlockSoundGroup.WOOD)
@@ -51,6 +80,10 @@ public class ModBlocks {
     public static final Block BLACKWOOD_SAPLING = registerBlock(
             "blackwood_sapling",
             new SaplingBlock(ModSaplingGenerators.BLACKWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING))
+    );
+    public static final Block ROTWOOD_SAPLING = registerBlock(
+            "rotwood_sapling",
+            new SaplingBlock(ModSaplingGenerators.ROTWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING))
     );
 
 
@@ -87,6 +120,12 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.BLACKWOOD_PLANKS);
             fabricItemGroupEntries.add(ModBlocks.BLACKWOOD_LEAVES);
             fabricItemGroupEntries.add(ModBlocks.BLACKWOOD_SAPLING);
+            fabricItemGroupEntries.add(ModBlocks.ROTWOOD_LOG);
+            fabricItemGroupEntries.add(ModBlocks.ROTWOOD_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_ROTWOOD_LOG);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_ROTWOOD_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.ROTWOOD_PLANKS);
+            fabricItemGroupEntries.add(ModBlocks.ROTWOOD_SAPLING);
         });
     }
 }

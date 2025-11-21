@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "unrotted:block/rotwood_log_top",
+    "side": "unrotted:block/rotwood_log"
+  }
+}
