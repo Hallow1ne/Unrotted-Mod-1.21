@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.hallow.unrotted.block.ModBlocks;
+import net.hallow.unrotted.item.ModItems;
 import net.hallow.unrotted.world.gen.ModWorldGeneration;
 import net.minecraft.block.FireBlock;
 import org.slf4j.Logger;
@@ -17,6 +18,7 @@ public class Unrotted implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModBlocks.initialize();
+        ModItems.initialize();
 
         ModWorldGeneration.generateModWorldGen();
 

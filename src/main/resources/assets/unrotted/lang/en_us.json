@@ -6,10 +6,13 @@
   "block.unrotted.blackwood_planks": "Blackwood Planks",
   "block.unrotted.blackwood_sapling": "Blackwood Sapling",
   "block.unrotted.blackwood_leaves": "Blackwood Leaves",
+
   "block.unrotted.rotwood_log": "Rotwood Log",
   "block.unrotted.rotwood_wood": "Rotwood",
   "block.unrotted.stripped_rotwood_log": "Stripped Rotwood Log",
   "block.unrotted.stripped_rotwood_wood": "Stripped Rotwood",
   "block.unrotted.rotwood_planks": "Rotwood Planks",
-  "block.unrotted.rotwood_sapling": "Rotwood Sapling"
+  "block.unrotted.rotwood_sapling": "Rotwood Sapling",
+
+  "item.unrotted.spore_bottle": "Bottle of Spores"
 }
