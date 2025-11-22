@@ -26,8 +26,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(ModBlocks.BLACKWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROTWOOD_PLANKS);
         blockStateModelGenerator.registerTintableCross(ModBlocks.ROTWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
-
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TINDER_FUNGUS);
     }
 
     @Override

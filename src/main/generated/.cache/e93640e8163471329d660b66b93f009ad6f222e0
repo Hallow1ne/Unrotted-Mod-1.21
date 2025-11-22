@@ -1,4 +1,4 @@
-// 1.21	2025-11-22T01:41:48.1356458	Unrotted/Model Definitions
+// 1.21	2025-11-22T04:21:59.2633722	Unrotted/Model Definitions
 7e31914dba0bf685e09b179450b3f4d081b80e44 assets\unrotted\blockstates\blackwood_planks.json
 9b1ad8d5d751a44d683ca135a179c51a13b81305 assets\unrotted\models\item\rotwood_planks.json
 b9c558b93bb7c622a8c2e92b7797db00b464c932 assets\unrotted\models\block\stripped_rotwood_log_horizontal.json
@@ -6,7 +6,6 @@ b9c558b93bb7c622a8c2e92b7797db00b464c932 assets\unrotted\models\block\stripped_r
 1fb60155bedd0ab2d56c15e2cae41dc115a19e65 assets\unrotted\blockstates\stripped_blackwood_log.json
 de4ce419568f97f5f933e65e039731f73f50a9fd assets\unrotted\models\item\rotwood_log.json
 eafebbe40d840e917610b0c712d5a63cd6a7f6a0 assets\unrotted\models\block\stripped_rotwood_log.json
-15cd165156817d5f9ef5be11703c9c1cfb134603 assets\unrotted\models\item\tinder_fungus.json
 2e38e61983887f997622c1890622ed4ad36f6e13 assets\unrotted\blockstates\stripped_rotwood_log.json
 154368923b39b1463ce8edaba70beabf3cc6d052 assets\unrotted\models\item\blackwood_log.json
 f5fe68a4dcab19aa3dc6142e1593c23db505e5ba assets\unrotted\models\block\blackwood_sapling.json
@@ -34,7 +33,6 @@ d03ca3b1c70e055f65d44fd623ea85247e025b16 assets\unrotted\models\item\stripped_bl
 b2c8514a6b4ae3dc84565ca2faed7d4e129f8915 assets\unrotted\models\item\stripped_rotwood_log.json
 a4455223142dd3efbdac63e9bd82b00ae1aee2c7 assets\unrotted\models\item\spore_bottle.json
 c56f76d3852b06f04f3ea398bdb17d2df8f857ec assets\unrotted\blockstates\rotwood_sapling.json
-6077aa3e5348f8f446286ea87ea78cb6ce0e1961 assets\unrotted\blockstates\tinder_fungus.json
 fc611499163f085c8274443eb55046f8f0b0e526 assets\unrotted\models\block\stripped_blackwood_log.json
 3e7b09bd5ef5bcd7ef73158c047ab85d94387bb9 assets\unrotted\blockstates\rotwood_log.json
 1260955e3ebc2de97a45281da4899d2972ac9ef9 assets\unrotted\models\block\blackwood_log.json
