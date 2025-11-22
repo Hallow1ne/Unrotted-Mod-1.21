@@ -27,10 +27,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROTWOOD_PLANKS);
         blockStateModelGenerator.registerTintableCross(ModBlocks.ROTWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
-
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TINDER_FUNGUS);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.SPORE_BOTTLE, Models.GENERATED);
     }
 }

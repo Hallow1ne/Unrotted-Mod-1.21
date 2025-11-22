@@ -2,6 +2,7 @@ package net.hallow.unrotted.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hallow.unrotted.Unrotted;
+import net.hallow.unrotted.block.custom.TreeFungusBlock;
 import net.hallow.unrotted.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
@@ -86,6 +87,9 @@ public class ModBlocks {
             new SaplingBlock(ModSaplingGenerators.ROTWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING))
     );
 
+    public static final Block TINDER_FUNGUS = registerBlock("tinder_fungus",
+            new TreeFungusBlock(AbstractBlock.Settings.create().nonOpaque().noCollision().sounds(BlockSoundGroup.FUNGUS)));
+
 
 
     public static Block registerBlock(String id, Block block) {
@@ -126,6 +130,7 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.STRIPPED_ROTWOOD_WOOD);
             fabricItemGroupEntries.add(ModBlocks.ROTWOOD_PLANKS);
             fabricItemGroupEntries.add(ModBlocks.ROTWOOD_SAPLING);
+            fabricItemGroupEntries.add(ModBlocks.TINDER_FUNGUS);
         });
     }
 }

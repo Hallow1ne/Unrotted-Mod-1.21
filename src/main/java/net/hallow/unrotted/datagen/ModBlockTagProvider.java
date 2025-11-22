@@ -27,6 +27,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STRIPPED_ROTWOOD_WOOD)
                 .add(ModBlocks.ROTWOOD_PLANKS);
 
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.TINDER_FUNGUS);
+
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.BLACKWOOD_LOG)
                 .add(ModBlocks.BLACKWOOD_WOOD)

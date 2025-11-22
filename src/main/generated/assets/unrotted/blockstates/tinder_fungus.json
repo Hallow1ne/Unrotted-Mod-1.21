@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "unrotted:block/tinder_fungus",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "unrotted:block/tinder_fungus"
+    },
+    "facing=south": {
+      "model": "unrotted:block/tinder_fungus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "unrotted:block/tinder_fungus",
+      "y": 270
+    }
+  }
+}
