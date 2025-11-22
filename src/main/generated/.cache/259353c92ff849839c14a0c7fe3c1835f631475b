@@ -1,4 +1,4 @@
-// 1.21	2025-11-22T04:21:59.2643721	Unrotted/Block Loot Tables
+// 1.21	2025-11-22T16:17:57.2612326	Unrotted/Block Loot Tables
 cc1a83754248edf867c32623f547476fe5e7a925 data\unrotted\loot_table\blocks\rotwood_planks.json
 4c003f7e44831e53a3e33fc01c2509e2795242c7 data\unrotted\loot_table\blocks\rotwood_log.json
 6ab30ad86deff7e397cf56b297d40a9c112a4192 data\unrotted\loot_table\blocks\stripped_rotwood_wood.json
@@ -12,3 +12,4 @@ c680c1a32682e545dc7e37b94d1cff810b79b295 data\unrotted\loot_table\blocks\blackwo
 253986cbbfa294eff5b00f3a6f83b202b53c271e data\unrotted\loot_table\blocks\blackwood_log.json
 25030fa147af910169962c6e9cd175bb52ffbc3c data\unrotted\loot_table\blocks\blackwood_planks.json
 5bb359bcb7b411bbfffbeac8becc152359b29f6c data\unrotted\loot_table\blocks\rotwood_sapling.json
+82a1cd5be3dc6fbb4fa9952629432b5a2e2fdafd data\unrotted\loot_table\blocks\tinder_fungus.json

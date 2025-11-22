@@ -31,5 +31,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.BLACKWOOD_LEAVES, leavesDrops(ModBlocks.BLACKWOOD_LEAVES, ModBlocks.BLACKWOOD_SAPLING, 0.0625f));
 
+        addDrop(ModBlocks.TINDER_FUNGUS, flowerbedDrops(ModBlocks.TINDER_FUNGUS));
+
     }
 }
